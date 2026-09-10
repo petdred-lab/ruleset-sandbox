@@ -1,4 +1,4 @@
-SHELL := /bin/bash   dddddddddddddddddddddddd
+SHELL := /bin/bash  
 APP     := go-deploy-demo
 IMAGE   ?= ghcr.io/acme/$(APP)
 VERSION ?= $(shell git describe --tags --always --dirty 2>/dev/null || echo dev)
